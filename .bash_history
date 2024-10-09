@@ -121,3 +121,45 @@ git commit -m "left_first_commit"
 git log
 git checkout main
 git log
+git merge left
+ls
+cat project_file
+git log --oneline --graph --all
+git branch -d left
+git log --oneline --graph --all
+git reset f63a49b project_file
+cat project_file
+git log --oneline --graph --all
+git stauts
+git status
+git merge right
+git reflog
+git add +
+git add *
+git status
+git reset HEAD project_file
+git status
+cat first
+git log --oneline --graph --all
+git checkout f63a49b project_file
+cat project_file
+git merge right
+git status
+git stash
+git pull origin parent-branch
+git pull origin
+cat project_file
+git stach apply 0
+git stash apply 0
+git log
+cat project_file
+git merge right
+cat project_file
+git log --oneline --graph --all
+git log
+git reset --hard HEAD~
+git reset --hard 5cc61cf
+git branch -d right
+git branch -D right
+git log --oneline --graph --all
+git branch
